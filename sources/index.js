@@ -301,42 +301,28 @@ function rendersTheGame() {
         if (!(frog.x >= trunk4.x && frog.x <= trunk4.x + trunk4.width || frog.x >= trunk5.x && frog.x <= trunk5.x + trunk5.width)) {
             killFrog();
         }
-        // if (!(frog.x >= trunk5.x && frog.x <= trunk5.x + trunk5.width)) {
-        //     console.log("euuu")
-        // }
+        
     }
 
     if (frog.y == 180) {
         if (!(frog.x >= trunk8.x && frog.x <= trunk8.x + trunk8.width || frog.x >= trunk9.x && frog.x <= trunk9.x + trunk9.width || frog.x >= trunk10.x && frog.x <= trunk10.x + trunk10.width)) {
             killFrog();
         }
-        // if (!(frog.x >= trunk9.x && frog.x <= trunk9.x + trunk9.width)) {
-        //     console.log("euuu")
-        // }
-        // if (!(frog.x >= trunk10.x && frog.x <= trunk10.x + trunk10.width)) {
-        //     console.log("euuu")
-        // }
+        
     }
 
     if (frog.y == 150) {
         if (!(frog.x >= trunk2.x && frog.x <= trunk2.x + trunk2.width || frog.x >= trunk3.x && frog.x <= trunk3.x + trunk3.width)) {
             killFrog();
         }
-        // if (!(frog.x >= trunk3.x && frog.x <= trunk3.x + trunk3.width)) {
-        //     console.log("euuu")
-        // }
+        
     }
 
     if (frog.y == 120) {
         if (!(frog.x >= trunk11.x && frog.x <= trunk11.x + trunk11.width || frog.x >= trunk12.x && frog.x <= trunk12.x + trunk12.width || frog.x >= trunk13.x && frog.x <= trunk13.x + trunk13.width)) {
             killFrog();
         }
-        // if (!(frog.x >= trunk12.x && frog.x <= trunk12.x + trunk12.width)) {
-        //     console.log("euuu")
-        // }
-        // if (!(frog.x >= trunk13.x && frog.x <= trunk13.x + trunk13.width)) {
-        //     console.log("euuu")
-        // }
+     
     }
 
     if (frog.y == 90) {
@@ -503,3 +489,5 @@ function frogPlaced(){
     frog.y = 480;
     renderFrog();
 }
+
+// Praticando Git
