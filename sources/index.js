@@ -67,10 +67,10 @@ let lanes = [roadLine1, roadLine2, roadLine3, roadLine4, roadLine5, roadLine6, r
 
 
 let spritesImage = new Image();
-spritesImage.src = "../assets/sprites.png";
+spritesImage.src = "assets/sprites.png";
 
 let deadImage = new Image();
-deadImage.src = "../assets/dead.png"
+deadImage.src = "assets/dead.png"
 
 let interfaceCtx = interfaceCanvas.getContext("2d");
 let spriteCtx = spriteCanvas.getContext("2d");
