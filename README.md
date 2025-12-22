@@ -55,8 +55,29 @@ Click **Start** to begin or **Play Again** after game over.
 
 ---
 
-## ▶️ How to Run
+---
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/LuSilvaDeveloper/Frogger.git
+## 🚧 Next Steps
+
+This project is intentionally built without a game engine to focus on **core gameplay and system fundamentals**.
+
+Planned improvements include:
+
+- 🔁 **Rewrite the game in C++**
+  - Implement the same mechanics using **C++ and a lightweight graphics library (SFML or SDL)**
+  - Recreate the game loop, collision detection, and entity system
+  - Compare architectural differences between JavaScript and C++
+  - Explore memory management, ownership, and performance considerations
+
+- 🧱 Improve architecture
+  - Introduce a `Game` class to own global state
+  - Convert entities (Frog, Vehicles, Logs) into reusable components
+
+- 🎮 Gameplay improvements
+  - Difficulty scaling
+  - Level progression
+  - Improved collision precision
+  - Sound effects and animations
+
+The goal is to use this project as a **cross-language gameplay engineering exercise**
+
